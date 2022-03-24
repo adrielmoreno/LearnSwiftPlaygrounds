@@ -3,5 +3,6 @@
     <pages>
         <page name='U01_Variables'/>
         <page name='U02_Colecciones'/>
+        <page name='U03_Tuplas y enums'/>
     </pages>
 </playground>

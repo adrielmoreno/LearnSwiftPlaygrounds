@@ -12,7 +12,6 @@
 .DS_Store
 Thumbs.db
 ._*
-
+contents.xcplayground
 playground.xcworkspace/
 xcuserdata/
-contents.xcplayground
