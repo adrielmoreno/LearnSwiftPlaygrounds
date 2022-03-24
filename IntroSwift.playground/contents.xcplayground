@@ -7,5 +7,6 @@
         <page name='U04_Sentencias de control'/>
         <page name='U04_Bucles'/>
         <page name='U05_Opcionales'/>
+        <page name='U06_Clases y Structs'/>
     </pages>
 </playground>
