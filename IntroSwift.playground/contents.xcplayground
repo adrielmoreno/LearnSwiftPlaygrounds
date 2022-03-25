@@ -8,5 +8,6 @@
         <page name='U04_Bucles'/>
         <page name='U05_Opcionales'/>
         <page name='U06_Clases y Structs'/>
+        <page name='U07_Funciones'/>
     </pages>
 </playground>
