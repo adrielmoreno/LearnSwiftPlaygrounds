@@ -15,9 +15,26 @@ func sayHello(name: String){
 //sayHello(name: "Adriel")
 
 
-// Función que devuelve valor
+// Función que devuelve valor (sobrecarga)
 func sayHello(name: String) -> String {
     return "¿Cómo va eso \(name)?"
 }
 var mensaje: String = sayHello(name: "Adriel")
-print(mensaje)
+
+
+// Función con etiqueta y valor por defecto
+func sayHello(to name: String = "Moreno"){
+    print("¿Cómo va eso \(name)?")
+}
+sayHello(to: "Adriel")
+sayHello()
+
+
+// Función con opcional, nil y guard let
+func sayHello2(_ name: String? = nil){
+    guard let nameNotNil = name else {
+        return
+    }
+    print("¿Cómo va eso \(nameNotNil)?")
+}
+sayHello2()

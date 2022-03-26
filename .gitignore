@@ -1,4 +1,4 @@
- # Compilados y ejecutables 
+# Compilados y ejecutables 
 *.class
 *.dll
 *.exe
@@ -12,6 +12,7 @@
 .DS_Store
 Thumbs.db
 ._*
-contents.xcplayground
+
+IntroSwift.playground/contents.xcplayground
 playground.xcworkspace/
 xcuserdata/
