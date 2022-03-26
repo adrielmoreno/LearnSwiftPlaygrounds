@@ -9,5 +9,6 @@
         <page name='U05_Opcionales'/>
         <page name='U06_Clases y Structs'/>
         <page name='U07_Funciones'/>
+        <page name='U08_Closures'/>
     </pages>
 </playground>
