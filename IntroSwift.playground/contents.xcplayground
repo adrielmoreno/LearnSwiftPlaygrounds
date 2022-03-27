@@ -11,5 +11,6 @@
         <page name='U07_Funciones'/>
         <page name='U08_Closures'/>
         <page name='U09_Propiedades computadas'/>
+        <page name='U10_Herencia'/>
     </pages>
 </playground>
