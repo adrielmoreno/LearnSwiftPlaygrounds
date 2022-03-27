@@ -28,3 +28,41 @@ actorProtocol.sayHello()
 actorProtocol.name = "Adriel"
 actorProtocol.lastname = "Moreno"
 actorProtocol.sayGoodbye()
+
+
+
+/** PROTOCOLO DELEGADO **/
+
+protocol FriendsDelegate: AnyObject {
+    func orderPizza()
+    func takeABreak()
+}
+
+class FriendsFuncDelegate {
+    weak var delegate: FriendsDelegate? = nil
+    
+    func pizza() {
+        delegate?.orderPizza()
+    }
+    
+    func sleep() {
+        delegate?.takeABreak()
+    }
+}
+
+class FriendsFunctions: FriendsDelegate {
+    func orderPizza() {
+        print("He pedido una pizza")
+    }
+    
+    func takeABreak() {
+        print("Me voy a dormir")
+    }
+}
+
+let friendsFuncDelegate = FriendsFuncDelegate()
+let friendsFunction = FriendsFunctions()
+
+friendsFuncDelegate.delegate = friendsFunction
+friendsFuncDelegate.pizza()
+friendsFuncDelegate.sleep()
