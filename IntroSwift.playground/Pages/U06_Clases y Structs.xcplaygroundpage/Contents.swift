@@ -1,4 +1,4 @@
-/** CLASES **/
+/** CLASES * */
 class Friends {
     var title: String
     let coffeShop: String
@@ -27,7 +27,7 @@ serie2.title = "Modern Family" // se modifica le valor en las dos instancias
 
 let serie3 = Friends(title: "Friends", coffeShop: "Central Perk", actors: [])
 
-/** STRUCTS **/
+/**STRUCTS * */
 struct Actor {
     var nombre: String
     var friendsName: String

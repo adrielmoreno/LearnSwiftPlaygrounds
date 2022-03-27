@@ -1,6 +1,6 @@
-/*** COLLECIONES DE DATOS***/
+/** COLLECIONES DE DATOS* */
 
-/*** ARRAYS ***/
+/** ARRAYS* */
 // Constante de tipo colección de String con valor vacío
 var letters: [String] = []
 letters.count
@@ -29,7 +29,7 @@ lettersPrice2.sort() // ordenar la lista
 
 
 
-/*** DICCIONARIOS ***/
+/**DICCIONARIOS* */
 // Declarando diccionario [key:value] y lo inicializamos a vacío
 var lettersDictionary: [Int:String] = [:]
 
@@ -57,7 +57,7 @@ lettersDictionary.values
 
 
 
-/*** SETs ***/
+/** SETs * */
 // Declaración de colleción de datos tipo Set, que contiene
 // elementos de tipo String. Además, inicializado vacío
 var letterSet: Set<String> = []

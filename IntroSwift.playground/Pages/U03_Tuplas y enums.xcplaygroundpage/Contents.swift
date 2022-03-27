@@ -1,4 +1,4 @@
-/*** Tuplas ***/
+/** Tuplas* */
 let mailbox = ("Adriel", 35)
 mailbox.0
 mailbox.1
@@ -10,7 +10,7 @@ mailboxAlias.number
 
 
 
-/*** Enum ***/
+/** Enum* */
 // enum báscio. CaseIterable permite que se pueda iterar en el enum
 enum LetterType: CaseIterable {
     case love

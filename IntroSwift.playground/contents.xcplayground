@@ -13,5 +13,6 @@
         <page name='U09_Propiedades computadas'/>
         <page name='U10_Herencia'/>
         <page name='U11_Protocolos y Delegados'/>
+        <page name='U12_Extensiones'/>
     </pages>
 </playground>

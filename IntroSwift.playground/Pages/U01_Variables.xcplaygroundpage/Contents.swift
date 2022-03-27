@@ -1,4 +1,4 @@
-/*** VARIABLES Y TIPOS ***/
+/** VARIABLES Y TIPOS* */
 
 // Definiendo una variable
 var letter: String

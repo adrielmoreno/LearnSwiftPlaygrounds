@@ -10,7 +10,7 @@ let actors: [Actor] = [
     Actor(nombre: "Matthew Perry", friendsName: "Chandler Bing")
 ]
 
-/** CLOSURES **/
+/** CLOSURES * */
 
 // closure forEach:
 

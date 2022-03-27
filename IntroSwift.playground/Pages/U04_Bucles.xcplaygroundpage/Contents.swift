@@ -1,4 +1,4 @@
-/*** For in */
+/** For in* */
 let nombres = ["Adriel", "Dwayne", "Dylan"]
 
 // iteración básica
@@ -45,22 +45,20 @@ for (key, value) in nombresDiccionario {
 }
 
 
-/*** ForEach */
+/** ForEach* */
 nombres.forEach { letter in
     print(letter)
 }
 
 
-/** * Bucle While */
+/**Bucle While* */
 var index = 0
 while index < nombres.count {
     print(nombres[index])
     index += 1
 }
 
-/**
- * Repeat-While: como el do while
- */
+/** Repeat-While: como el do while* */
 var count = 0
 repeat {
     print("Count \(nombres[count])")

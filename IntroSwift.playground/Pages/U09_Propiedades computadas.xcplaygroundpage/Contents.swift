@@ -1,4 +1,4 @@
-/** PROPIEDADES COMPUTADAS **/
+/** PROPIEDADES COMPUTADAS * */
 
 struct CoffeeShop {
     var clientes: [String]

@@ -1,4 +1,4 @@
-
+/** HERENCIA* */
 class Person {
     var name: String = ""
     

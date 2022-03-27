@@ -1,4 +1,4 @@
-/*** Opcionales***/
+/** Opcionales * */
 var isSended: Bool? = nil
 isSended = true
 
@@ -7,7 +7,7 @@ var lettersOptional: [String]? = []
 lettersOptional?.count
 //lettersOptional!.count //forzamos la salida
 
-/*** Opcionales con if let ***/
+/*** Opcionales con if let */
 // otra forma de acceso. si count = nil se ejecuta el else
 if let count = lettersOptional?.count {
     print("Tienes \(count) cartas")
@@ -30,7 +30,7 @@ if let count = lettersOptional?.count, let letterSended = isSended {
 }
 
 
-/*** Opcionales con guard let ***/
+/** Opcionales con guard let* */
 // guard funciona con funciones
 var guardBool: Bool? = nil
 func comprobarGuard(){

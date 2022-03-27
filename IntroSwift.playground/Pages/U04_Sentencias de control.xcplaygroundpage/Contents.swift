@@ -1,6 +1,6 @@
 let lettersCoount = 4
 
-/*** if else  ***/
+/** if else * */
 if (lettersCoount > 5) {
     print("Tienes cartas en el buzón")
 } else if (lettersCoount > 0) {
@@ -11,7 +11,7 @@ if (lettersCoount > 5) {
 
 
 
-/*** switch ***/
+/** switch* */
 let postmanCount = 2
 
 switch (postmanCount) {
@@ -25,7 +25,7 @@ default:
 }
 
 
-/*** switch con enums ***/
+/** switch con enums* */
 enum MailboxProperties {
     case capacity(Int)
     case address(String)

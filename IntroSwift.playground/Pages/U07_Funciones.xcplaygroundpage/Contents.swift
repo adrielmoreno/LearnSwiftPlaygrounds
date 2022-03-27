@@ -1,4 +1,4 @@
-/** Funciones **/
+/** Funciones* */
 
 // Funcion sin parámetro
 func sayHelloJoey() {
