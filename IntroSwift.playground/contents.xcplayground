@@ -10,5 +10,6 @@
         <page name='U06_Clases y Structs'/>
         <page name='U07_Funciones'/>
         <page name='U08_Closures'/>
+        <page name='U09_Propiedades computadas'/>
     </pages>
 </playground>
